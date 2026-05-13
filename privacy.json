@@ -1,0 +1,7 @@
+{
+  "prompt": "小程序需要获取您的文件选择权限，用于上传参考音频文件",
+  "phonePermission": "用于联系客服",
+  "locationPermission": "用于定位服务",
+  "albumPermission": "用于选择图片和视频",
+  "cameraPermission": "用于拍摄视频和扫码"
+}

@@ -1,0 +1,254 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationStyle": "custom", // 设置为 custom 隐藏原生导航栏
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": ""//设置页面标题文字
+			}
+			
+		},
+		{
+			"path": "pages/videolist/videolist",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				},
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "作品",//设置页面标题文字
+				"navigationBarBackgroundColor": "#18181b" ,// 设置导航栏背景色
+				"navigationBarTextStyle": "white"	,//文字颜色 支持 black/white
+				"enablePullDownRefresh": true,  //设置为true表示当前页面开启下拉刷新
+				"backgroundTextStyle": "dark"  //下拉 loading 的样式，仅支持 dark/light
+				
+			}
+		},
+		{
+			"path": "pages/videolist/info",
+			"style": {
+				"app-plus": {
+					"titleNView": true
+				},
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "详情",//设置页面标题文字
+				"navigationBarBackgroundColor": "#18181b" ,// 设置导航栏背景色
+				"navigationBarTextStyle": "white"	//文字颜色 支持 black/white
+			}
+			
+		},
+		{
+			"path": "pages/user/profile",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationStyle": "custom", // 设置为 custom 隐藏原生导航栏
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "我的"//设置页面标题文字
+				
+			}
+			
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom", // 设置为 custom 隐藏原生导航栏
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "授权登录"//设置页面标题文字
+			}
+			
+		},
+		{
+			"path": "pages/page/page",
+			"style": {
+				"app-plus": {
+					"titleNView": true
+				},
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "单页",//设置页面标题文字
+				"navigationBarBackgroundColor": "#18181b" ,// 设置导航栏背景色
+				"navigationBarTextStyle": "white"	//文字颜色 支持 black/white
+			}
+		},
+		{
+			"path": "pages/user/points",
+			"style": {
+				"app-plus": {
+					"titleNView": true
+				},
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "积分明细",//设置页面标题文字
+				"navigationBarBackgroundColor": "#18181b" ,// 设置导航栏背景色
+				"navigationBarTextStyle": "white"	//文字颜色 支持 black/white
+			}
+		},
+		{
+			"path": "pages/user/role",
+			"style": {
+				"app-plus": {
+					"titleNView": true
+				},
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "角色管理",//设置页面标题文字
+				"navigationBarBackgroundColor": "#18181b" ,// 设置导航栏背景色
+				"navigationBarTextStyle": "white"	//文字颜色 支持 black/white
+			}
+		},
+		{
+			"path": "pages/user/distribution",
+			"style": {
+				"app-plus": {
+					"titleNView": true
+				},
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "分销中心",//设置页面标题文字
+				"navigationBarBackgroundColor": "#18181b" ,// 设置导航栏背景色
+				"navigationBarTextStyle": "white"	//文字颜色 支持 black/white
+			}
+		},
+		{
+			"path": "pages/user/extractList",
+			"style": {
+				"app-plus": {
+					"titleNView": true
+				},
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "提现明细",//设置页面标题文字
+				"navigationBarBackgroundColor": "#18181b" ,// 设置导航栏背景色
+				"navigationBarTextStyle": "white"	//文字颜色 支持 black/white
+			}
+		},
+		{
+			"path": "pages/user/teamList",
+			"style": {
+				"app-plus": {
+					"titleNView": true
+				},
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "团队成员",//设置页面标题文字
+				"navigationBarBackgroundColor": "#18181b" ,// 设置导航栏背景色
+				"navigationBarTextStyle": "white"	//文字颜色 支持 black/white
+			}
+		},
+		{
+			"path": "pages/pay/buyPoints",
+			"style": {
+				"app-plus": {
+					"titleNView": true
+				},
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "购买积分",//设置页面标题文字
+				"navigationBarBackgroundColor": "#18181b" ,// 设置导航栏背景色
+				"navigationBarTextStyle": "white"	//文字颜色 支持 black/white
+			}
+		},
+		{
+			"path": "pages/sora/sora",
+			"style": {
+				"app-plus": {
+					"titleNView": true
+				},
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "sora视频",//设置页面标题文字
+				"navigationBarBackgroundColor": "#18181b" ,// 设置导航栏背景色
+				"navigationBarTextStyle": "white"	//文字颜色 支持 black/white
+			}
+		},
+		{
+			"path": "pages/image/image",
+			"style": {
+				"app-plus": {
+					"titleNView": true
+				},
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "AI制图",//设置页面标题文字
+				"navigationBarBackgroundColor": "#18181b" ,// 设置导航栏背景色
+				"navigationBarTextStyle": "white"	//文字颜色 支持 black/white
+			}
+		},
+		{
+			"path": "pages/human/human",
+			"style": {
+				"app-plus": {
+					"titleNView": true
+				},
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "AI数字人",//设置页面标题文字
+				"navigationBarBackgroundColor": "#18181b" ,// 设置导航栏背景色
+				"navigationBarTextStyle": "white"	//文字颜色 支持 black/white
+			}
+		},
+		{
+			"path": "pages/human/createImage",
+			"style": {
+				"app-plus": {
+					"titleNView": true
+				},
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "新建形象",//设置页面标题文字
+				"navigationBarBackgroundColor": "#18181b" ,// 设置导航栏背景色
+				"navigationBarTextStyle": "white"	//文字颜色 支持 black/white
+			}
+		},
+		{
+			"path": "pages/human/createVoice",
+			"style": {
+				"app-plus": {
+					"titleNView": true
+				},
+				"onReachBottomDistance":1,
+				"navigationBarTitleText": "新建音色",//设置页面标题文字
+				"navigationBarBackgroundColor": "#18181b" ,// 设置导航栏背景色
+				"navigationBarTextStyle": "white"	//文字颜色 支持 black/white
+			}
+		},
+		{
+			"path" : "components/CustomTabBar/CustomTabBar",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "德创网络",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#18181b"
+		
+	},
+	"tabBar": {
+	  "custom": true,
+	  "color": "#18181b",
+	  "selectedColor": "#18181b",
+	  "borderStyle" : "white",
+	  "backgroundColor" : "#18181b",
+	  "list": [
+		  {
+			  "pagePath" : "pages/index/index",
+			  "iconPath" : "/static/img/bnt1.png",
+			  "selectedIconPath" : "/static/img/bnt1_on.png",
+			  "text" : "视频生成"
+			
+		  },
+		  {
+			  "pagePath" : "pages/videolist/videolist",
+			  "iconPath" : "/static/img/bnt1.png",
+			  "selectedIconPath" : "/static/img/bnt1_on.png",
+			  "text" : "作品"
+			
+		  },
+		  {
+			  "pagePath" : "pages/user/profile",
+			  "iconPath" : "/static/img/bnt2.png",
+			  "selectedIconPath" : "/static/img/bnt2_on.png",
+			  "text" : "我的"
+		  }
+	  ]
+	}
+}
