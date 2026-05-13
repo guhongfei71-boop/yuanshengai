@@ -1,0 +1,13 @@
+// 弹窗样式
+.popup{
+	max-width: 700rpx;
+	padding: 40rpx 40rpx;
+	.title{
+		font-size: 32rpx;
+		font-weight: bold;
+	}
+	.desc {
+		margin-top: 20rpx;
+		line-height: 44rpx;
+	}
+}
